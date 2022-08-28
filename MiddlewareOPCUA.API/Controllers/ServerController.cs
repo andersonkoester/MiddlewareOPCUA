@@ -21,7 +21,7 @@ public class ServerController : APIControllerBase {
   }
 
   [HttpPost]
-  [Route("")]
+  [Route("test-server")]
   public async Task<TestServerResponseDTO> TestServer( [FromBody] TestServerRequestDTO request ) {
     return null;
   }
