@@ -16,13 +16,13 @@ public class ServerController : APIControllerBase {
 
   [HttpGet]
   [Route("{uuid}")]
-  public async Task<object> GetServerByUUID([FromRoute] string UUID) {
+  public async Task<object> GetServerByUUID( [FromRoute] string UUID ) {
     return null;
   }
 
   [HttpPost]
   [Route("")]
-  public async Task<TestServerResponseDTO> GetServerByUUID([FromBody] TestServerRequestDTO request) {
+  public async Task<TestServerResponseDTO> TestServer( [FromBody] TestServerRequestDTO request ) {
     return null;
   }
 
