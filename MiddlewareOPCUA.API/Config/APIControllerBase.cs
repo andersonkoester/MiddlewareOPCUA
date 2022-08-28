@@ -1,6 +1,6 @@
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
-using MediatR;
 
 namespace MiddlewareOPCUA.API.Config;
 
